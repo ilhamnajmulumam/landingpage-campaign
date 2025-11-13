@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ Tupperware Campaign Landing Page
 
-## Getting Started
+Landing page promosi profesional untuk produk **Tupperware**, dibuat menggunakan **Next.js**, **React**, dan **Tailwind CSS**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Deskripsi Proyek
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Proyek ini merupakan **landing page promosi** untuk kampanye penjualan produk Tupperware. Dibangun dengan desain modern, animasi halus menggunakan **Framer Motion**, dan performa tinggi berkat teknologi **Next.js**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 Teknologi yang Digunakan
 
-## Learn More
+-   **Next.js 15.5.3**
+-   **React 19.1.0**
+-   **Tailwind CSS 4**
+-   **Framer Motion**
+-   **Vite**
+-   **JavaScript (ES6+)**
+-   **GitHub**
+-   **MySQL (untuk penyimpanan data jika dikembangkan lebih lanjut)**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👨‍💻 Pengembang
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Ilham Najmul Umam**  
+Fresh Graduate Teknik Informatika Universitas Ma’arif NU Kebumen (2021–2025)  
+📍 Weton Kulon, Puring, Kebumen, Jawa Tengah  
+📧 [ilhamnajmul@gmail.com](mailto:ilhamnajmul@gmail.com)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Tujuan Proyek
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Menampilkan kampanye penjualan Tupperware dalam bentuk halaman promosi yang menarik dan informatif, dengan tujuan meningkatkan konversi pelanggan.
+
+---
+
+## 🧭 Cara Menjalankan Proyek
+
+1. **Kloning repositori**
+
+    ```bash
+    git clone https://github.com/ilhamnajmulumam/landingpage-campaign.git
+    cd landingpage-campaign
+    ```
+
+2. **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+3. **Jalankan server pengembangan**
+
+    ```bash
+    npm run dev
+    ```
+
+4. **Buka di browser**
+    ```
+    http://localhost:3000
+    ```
+
+---
+
+## 📦 Skrip NPM yang Tersedia
+
+| Perintah        | Deskripsi                       |
+| --------------- | ------------------------------- |
+| `npm run dev`   | Menjalankan server pengembangan |
+| `npm run build` | Membangun proyek untuk produksi |
+| `npm run start` | Menjalankan hasil build         |
+| `npm run lint`  | Mengecek kode dengan ESLint     |
+
+---
+
+## 📄 Lisensi
+
+Proyek ini dikembangkan secara **individual** oleh **Ilham Najmul Umam** untuk tujuan pembelajaran dan portofolio profesional.
