@@ -23,7 +23,7 @@ const product = [
 
 export default function FeaturedProductSection() {
     return (
-        <section className="mt-16 px-6 lg:px-16">
+        <section className="mt-16 px-4 md:px-10 lg:px-16">
             {/* Heading */}
             <div className="flex flex-col gap-4 items-center text-center mb-12">
                 <h2 className="lg:text-4xl text-2xl font-bold text-primary font-Roboto relative inline-block">
@@ -37,7 +37,7 @@ export default function FeaturedProductSection() {
             </div>
 
             {/* Products Grid */}
-            <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
+            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
                 {product.map((item, index) => (
                     <div
                         key={item.id}
