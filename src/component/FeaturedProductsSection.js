@@ -23,7 +23,7 @@ const product = [
 
 export default function FeaturedProductSection() {
     return (
-        <section className="mt-16 px-4 md:px-10 lg:px-16">
+        <section className="mt-16 sm:mt-60 px-4 md:px-10 lg:px-16">
             {/* Heading */}
             <div className="flex flex-col gap-4 items-center text-center mb-12">
                 <h2 className="lg:text-4xl text-2xl font-bold text-primary font-Roboto relative inline-block">

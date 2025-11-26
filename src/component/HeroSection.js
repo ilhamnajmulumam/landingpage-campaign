@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 export default function HeroSection() {
     return (
-        <section className="mb-16 mt-16 lg:mb-32 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center  min-h-[100vh] px-4 sm:px-6 lg:px-0">
+        <section className="mb-5 mt-5 flex flex-col xl:gap-60 xl:flex-row justify-center gap-12 items-center min-h-[100vh] px-3 sm:px-6 lg:px-0">
             {/* Text Section */}
-            <div className="flex flex-col gap-6 transform transition-all duration-700 ease-out opacity-0 animate-fade-in-left text-center lg:text-left">
+            <div className="flex flex-col max-w-150 gap-6 transform transition-all duration-700 ease-out opacity-0 animate-fade-in-left text-center lg:text-left">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-Roboto text-primary leading-snug">
                     Belanja Tupperware Asli & Berkualitas
                 </h1>
@@ -62,7 +62,7 @@ export default function HeroSection() {
             </div>
 
             {/* Image Section */}
-            <div className="flex md:justify-end justify-center opacity-0 animate-fade-in-right">
+            <div className="flex xs:justify-end justify-center opacity-0 animate-fade-in-right">
                 <Image
                     src="/hero/HeroSectionImage.jpeg"
                     alt="Tupperware"

@@ -3,7 +3,7 @@ import Image from 'next/image';
 export const ProductCard = ({ name, price, image }) => {
     return (
         <div className="flex justify-center items-center font-Roboto">
-            <div className="w-full max-w-[350px] rounded-3xl flex flex-col gap-4 shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300 bg-white overflow-hidden">
+            <div className="w-full max-w-[350px] h-[500px] justify-end rounded-3xl flex flex-col gap-4 shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300 bg-white overflow-hidden">
                 {/* Product Image */}
                 <div className="flex justify-center p-4 bg-gray-50 min-h-[220px] md:min-h-[250px]">
                     <Image
@@ -16,7 +16,7 @@ export const ProductCard = ({ name, price, image }) => {
                 </div>
 
                 {/* Product Info */}
-                <div className="p-6 bg-primary flex flex-col gap-4 rounded-t-3xl max-w-30 text-white">
+                <div className="p-6 bg-primary flex flex-col gap-4 rounded-t-3xl  text-white">
                     <h1 className="font-bold text-xl md:text-2xl truncate">
                         {name}
                     </h1>

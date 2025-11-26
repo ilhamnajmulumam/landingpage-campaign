@@ -38,7 +38,7 @@ const review = [
 export default function CustomerReviewSection() {
     return (
         <div className="">
-            <div className="flex flex-col gap-5 mt-10 lg:mt-30">
+            <div className="flex flex-col gap-5 mt-20 sm:mt-50">
                 <div className="flex justify-center text-primary text-Roboto text-2xl font-bold  items-center">
                     <h2>Apa Kata Pelanggan ?</h2>
                 </div>
