@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import WhyChooseUsSectionImage from '../../public/hero/WhyChooseUsSectionImage.png';
 
 export default function WhyChooseUsSection() {
     return (
@@ -37,10 +38,10 @@ export default function WhyChooseUsSection() {
                 {/* Image Section */}
                 <div className="flex justify-center">
                     <Image
-                        src="/hero/WhyChooseUsSectionImage.png"
+                        src={WhyChooseUsSectionImage}
                         alt="section-2"
                         width={500}
-                        height={400}
+                        height="auto"
                         className="rounded-3xl shadow-xl max-w-[80%] sm:max-w-[70%] md:max-w-[60%] lg:max-w-full hover:scale-105 transition-transform duration-500"
                     />
                 </div>
